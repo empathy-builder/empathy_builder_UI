@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0; 
+    background-color: #ffffff;
+}
+html {
+    font-size: 62.5%;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.top-header{
+    background-color:  #7469EC ;
+    color: #ffffff; 
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: #b3a5c2 2px solid;
+    display: flex; 
+    justify-content: space-around;
+}
+.top-header a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.top-header li{
+    display: inline; 
+    padding: 20px;
+    font-size: 2rem;
+}
