@@ -211,6 +211,7 @@ background-color: red;
   display:flex;
 	justify-content: space-between;
 	flex-direction: column;
+	 
 }
 .navbar
 {
@@ -243,7 +244,8 @@ display: flex;
 justify-content: space-around;
  
 }
-.middle-content{
-
+.footer{
+	width: 100%;
+  margin-top: 5px;
 }
 }
