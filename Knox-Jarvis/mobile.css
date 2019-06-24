@@ -209,7 +209,7 @@ background-color: red;
 @media (max-width: 600px) {
 .wrapper{
   display:flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	flex-direction: column;
 }
 .navbar
@@ -241,7 +241,9 @@ border: 1px solid gray;
 .navbar h2 {
 display: flex;
 justify-content: space-around;
+ 
+}
+.middle-content{
 
 }
-
 }
