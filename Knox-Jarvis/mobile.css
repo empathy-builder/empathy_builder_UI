@@ -204,3 +204,44 @@ button {
 background-color: red;
 }
 
+
+
+@media (max-width: 600px) {
+.wrapper{
+  display:flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+.navbar
+{
+display: flex;
+flex-direction: column;
+align-content: center; 
+border: 1px solid gray;
+}
+
+.home{
+width: 100%;
+border: 1px solid gray;
+}
+
+.calculator{
+width: 100%;
+border: 1px solid gray;
+}
+.About{
+	width: 100%;
+	border: 1px solid gray;
+}
+.Contact{
+	width:100%;
+	border: 1px solid gray;
+}
+
+.navbar h2 {
+display: flex;
+justify-content: space-around;
+
+}
+
+}
