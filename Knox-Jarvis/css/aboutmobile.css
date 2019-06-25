@@ -304,5 +304,8 @@ height:100%;
 .topnav {
 font-family: Quicksand;
 }
+.header{
+	display:none;
+}
 
 }
