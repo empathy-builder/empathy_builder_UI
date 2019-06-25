@@ -47,8 +47,8 @@ table {
 html {
 	height: 100%;
 	font-size: 62.5%;
-	background-color:#A00707;
-	background-color:;
+	background-color:#333;
+	
 }
 
 @media(max-width: 700px) {
@@ -74,13 +74,13 @@ body {
 
 
 .wrapper {
-	min-width: 500px;
-	max-width: 1000px;
+	min-width: 400px;
+	max-width: 1200px;
 	margin: 0 auto;
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	background-color:grey;
+	background-color:#333;
 }
 
 
@@ -108,6 +108,7 @@ body {
 display: flex;
 justify-content: center;
 color: red; 
+outline:none;
 }
 
 
@@ -262,8 +263,10 @@ height:100%;
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color:black;
   position: relative;
+	width: 100%;
+	min-width: 200px;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
@@ -303,6 +306,7 @@ height:100%;
 
 .topnav {
 font-family: Quicksand;
+width: 100%;
 }
 .header{
 	display:none;

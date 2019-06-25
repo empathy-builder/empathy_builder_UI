@@ -79,7 +79,7 @@ body {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	background-color: #020061;
+	background-color: #333;
 }
 
 
@@ -261,7 +261,7 @@ height:100%;
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: black;
   position: relative;
 	height: 30%; 
 }

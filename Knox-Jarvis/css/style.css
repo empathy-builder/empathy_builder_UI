@@ -79,7 +79,7 @@ body {
 	margin: 0 auto;
 	min-height: 100%;
 	height: 100%;
-	background-color:white;
+	background-color:#333;
 	max-height: 300px;
 
 }
@@ -171,38 +171,50 @@ display: flex;
 justify-content: space-around;
 
 }
-
 .home h2 {
 display: flex;
-margin: 25px;
 justify-content: space-around;
 align-self: center;
 color: black;
+border-radius: 50px;
+height:100%;
+width: 100%;
+align-items: center;
+
 
 }
 
 .calculator h2 {
 display: flex;
-margin: 25px;
 justify-content: space-around;
 align-self: center;
 color: black;
+border-radius: 50px;
+height:100%;
+width: 100%;
+align-items: center;
 }
 
 .Contact h2 {
 display: flex;
-margin: 25px;
 justify-content: space-around;
 align-self: center;
 color: black;
+border-radius: 50px;
+height:100%;
+width: 100%;
+align-items: center;
 }
 
 .About h2 {
 display: flex;
-margin: 25px;
 justify-content: space-around;
 align-self: center;
 color: black;
+border-radius: 50px;
+height:100%;
+width: 100%;
+align-items: center;
 }
 
 .navbar a {
@@ -217,6 +229,7 @@ background-color: red;
 border-radius: 50px;
 width: 20%;
 height:100%;
+outline:none;
 }
 
 /* Style the navigation menu */
@@ -224,6 +237,7 @@ height:100%;
   overflow: hidden;
   background-color: #333;
   position: relative;
+	width: 100%;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
@@ -259,4 +273,5 @@ height:100%;
 .active {
   background-color: #4CAF50;
   color: white;
+	width: 100%;
 }
