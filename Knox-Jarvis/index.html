@@ -6,16 +6,30 @@
 	<title></title>
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
-	<link href="style.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quicksand" />
-	<link rel="stylesheet" media="screen and (max-width:600px)" href="mobile.css">
+	<link rel="stylesheet" media="screen and (max-width:600px)" href="/css/mobile.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="index.js"></script>
 
 </head>
 
 <body>
 
 <div class="wrapper">
-
+<div class="topnav"> <!---begin hamburger-->
+  <a href="#home" class="active">Home</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="#Calculator">Calculator</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div> <!--end hamburger-->
 	<header class="header">
 	<div class = "navbar" >
 <div class = "home">
