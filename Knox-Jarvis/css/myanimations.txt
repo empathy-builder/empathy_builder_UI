@@ -1,0 +1,130 @@
+/* animations */
+
+
+
+
+
+.content1-text1{
+transition-property: background, transform;
+transition-duration: 1s; 
+}
+.content1-text1:hover{
+	background: dodgerblue;
+	transform: rotateY(520deg);
+
+	
+}
+
+.content1-text1:hover .content1-text1 p{
+	display: none;
+	
+
+	
+}
+
+.content1-text2{
+transition-property: background, transform;
+transition-duration: 1s; 
+}
+.content1-text2:hover{
+	background: dodgerblue;
+	transform: rotateY(520deg);
+
+	
+}
+
+
+.content2-text1{
+transition-property: background, transform;
+transition-duration: 1s; 
+}
+.content2-text1:hover{
+	background: dodgerblue;
+	transform: rotateY(520deg);
+
+	
+}
+
+.content2-text2{
+transition-property: background, transform;
+transition-duration: 1s; 
+}
+.content2-text2:hover{
+	background: dodgerblue;
+	transform: rotateY(520deg);
+
+	
+}
+
+.content2-text3{
+transition-property: background, transform;
+transition-duration: 2s; 
+}
+.content2-text3:hover{
+	background: dodgerblue;
+	transform: rotateY(520deg);
+	
+
+	
+}
+
+.content2-text3:hover #Knox{
+	display: none;
+} 
+
+#Github {
+height: 30%;
+display: none;
+
+}
+
+.content2-text3:hover #Github{
+	
+	display: block;
+} 
+
+
+
+
+--------HTML FILE-----------
+
+
+
+
+</header><!-- .header-->
+<div class= "middle-content">
+	
+	<div class = "content1">
+	
+		<div class = "content1-text1">
+		<p>Back End Architect </p>
+		<img src = "Jay.png">
+	</div>
+
+		
+		<div class = "content1-text2">
+		<p>Front End Architect</p>
+	</div>
+		</div> <!---end content1 div-->
+		<div class = "content2">
+		
+		
+		<div class = content2-text1>
+			<img src = "Adrian.png">
+		<p>UI Developer </p>
+	</div>
+
+	
+	
+			<div class = content2-text2>
+		<p>Team Lead</p>
+		<img src = "Manjula.jpeg" >
+	</div>
+			<div class = content2-text3>
+		<p id = "Knox">UI Developer</p>
+		<img src = "Knox.png" id = "Knox" >
+		<img src = "github.png" id = "Github">
+	</div>
+
+	</div> <!---end content2-->
+	<!-- .content -->

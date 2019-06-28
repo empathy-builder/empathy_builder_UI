@@ -82,8 +82,6 @@ event.target.style.color = "black";
 event.target.style.backgroundColor = "white";
 });
 
-///carousel JS////
-
 
 
 

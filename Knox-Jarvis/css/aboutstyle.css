@@ -214,9 +214,9 @@ height: 100%;
 width:100%;
 background-color: white;
 border-radius: 50px;
-margin: 10px;
+
 display: flex;
-justify-content
+justify-content: space-around;
 }
 
 .login-btn{
@@ -401,9 +401,135 @@ outline: none;
 
 .content1-text1{
 transition-property: background, transform;
-transition-duration: 3s; 
+transition-duration: 1s; 
 }
 .content1-text1:hover{
-	background: red;
-	transform: rotateY(180deg);
+	background: dodgerblue;
+	transform: rotateY(520deg);
+
+	
+}
+
+.content1-text1:hover .content1-text1 p{
+	display: none;
+	
+
+	
+}
+
+.content1-text2{
+transition-property: background, transform;
+transition-duration: 1s; 
+}
+.content1-text2:hover{
+	background: dodgerblue;
+	transform: rotateY(520deg);
+
+	
+}
+
+
+.content2-text1{
+transition-property: background, transform;
+transition-duration: 1s; 
+}
+.content2-text1:hover{
+	background: dodgerblue;
+	transform: rotateY(520deg);
+
+	
+}
+
+.content2-text2{
+transition-property: background, transform;
+transition-duration: 1s; 
+}
+.content2-text2:hover{
+	background: dodgerblue;
+	transform: rotateY(520deg);
+
+	
+}
+
+.content2-text3{
+transition-property: background, transform;
+transition-duration: 2s; 
+}
+.content2-text3:hover{
+	background: dodgerblue;
+	transform: rotateY(520deg);
+	
+
+	
+}
+
+.content2-text3:hover #Knox{
+	display: none;
+} 
+
+#Github {
+height: 30%;
+display: none;
+
+}
+
+.content2-text3:hover #Github{
+	
+	display: block;
+} 
+
+.content1-text1 img{
+	width: 30%;
+	height: 30%;
+}
+
+.content1-text2 img{
+	width: 30%;
+	height: 30%;
+}
+
+.content2-text1 img{
+	width: 30%;
+	height: 30%;
+}
+
+.content2-text2 img{
+	width: 30%;
+	height: 30%;
+}
+
+.content2-text3 img{
+	width: 30%;
+	height: 30%;
+}
+
+
+.content2-text2:hover #Github{
+	
+	display: block;
+} 
+.content2-text1:hover #Github{
+	
+	display: block;
+} 
+
+.content1-text2:hover #Github{
+	
+	display: block;
+} 
+
+.content1-text1:hover #Github{
+	
+	display: block;
+} 
+
+
+
+
+
+
+
+
+
+
 }

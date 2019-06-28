@@ -264,7 +264,7 @@ height:100%;
 }
 /* Style the navigation menu */
 .topnav {
-  overflow: hidden;
+  overflow:visible;
   background-color:black;
   position: relative;
 	width: 100%;
@@ -314,7 +314,8 @@ width: 100%;
 	display:none;
 }
 
-logo-div image{
-margin-right: 200px;
+.logo-div img{
+	display: none;  
+
 }
 }

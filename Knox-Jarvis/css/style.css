@@ -130,12 +130,11 @@ height: 10%;
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer {
-	margin: -100px auto 0;
-	min-width: 50rem;
-	max-width: 100rem;
-	height: 10rem;
+	width: 100%;
+	
+
 	background: #304F6D;
-	position: relative;
+	
 }
 .footer-text{
 color: white;
