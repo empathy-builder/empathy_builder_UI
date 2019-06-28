@@ -1,0 +1,330 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+	height: 100%;
+	width: 100%;
+	min-width: 300px;
+	font-size: 62.5%;
+	background-color: #117EE9;
+}
+
+@media(max-width: 700px) {
+     header {
+    display:flex;
+		flex-direction: column;
+		
+  }
+}
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+
+h1 { font-family: Quicksand; font-size: 3rem; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; }
+h2 { font-family: Quicksand; font-size: 2.5rem; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; }
+ h3 { font-family: Quicksand; font-size: 2rem; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Quicksand; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Quicksand; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Quicksand; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+
+body {
+	height: 100%;
+	min-width: 300px;
+}
+
+
+.wrapper {
+	min-width: 300px;
+	max-width: 1000px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	background-color: #117EE9;
+	width: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.wrapper .header {
+	height: 10rem;
+	background: #117EE9;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+.login-btn{
+display: flex;
+justify-content: center;
+color:lightskyblue; 
+}
+
+
+
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	margin: -100px auto 0;
+	min-width: 50rem;
+	max-width: 100rem;
+	height: 10rem;
+	background: #304F6D;
+	position: relative;
+}
+.footer-text{
+color: white;
+}
+
+.home {
+width: 150px;
+height: 80px;
+background-color: #A00707;
+
+}
+
+.calculator {
+	width: 150px;
+height: 80px;
+background-color: #A00707;
+
+}
+
+.About {
+	width: 150px;
+height: 80px;
+background-color: #A00707;
+
+}
+
+.Contact {
+	width: 150px;
+height: 80px;
+background-color: #A00707;
+
+}
+
+.navbar {
+display: flex;
+justify-content: space-around;
+
+
+}
+
+.home h2 {
+display: flex;
+margin: 25px;
+justify-content: space-around;
+align-self: center;
+color: white;
+}.content{
+	display: flex;
+	height: 30%; 
+}
+
+.calculator h2 {
+display: flex;
+margin: 25px;
+justify-content: space-around;
+align-self: center;
+color: white;
+}
+
+.Contact h2 {
+display: flex;
+margin: 25px;
+justify-content: space-around;
+align-self: center;
+color: white;
+}
+
+.About h2 {
+display: flex;
+margin: 25px;
+justify-content: space-around;
+align-self: center;
+color: white;
+}
+
+.navbar a {
+
+text-decoration: none;
+}
+
+
+button {
+
+background-color: lightskyblue;
+}
+
+
+
+@media (max-width: 600px) {
+.wrapper{
+  display:flex;
+	justify-content: space-between;
+	flex-direction: column;
+	 
+}
+.navbar
+{
+display: none;
+flex-direction: column;
+align-content: center; 
+border: 1px solid gray;
+}
+
+.home{
+width: 100%;
+border: 1px solid gray;
+}
+
+.calculator{
+width: 100%;
+border: 1px solid gray;
+}
+.About{
+	width: 100%;
+	border: 1px solid gray;
+}
+.Contact{
+	width:100%;
+	border: 1px solid gray;
+}
+
+.navbar h2 {
+display: flex;
+justify-content: space-around;
+ 
+}
+.footer{
+	width: 100%;
+  margin-top: 15px;
+}
+
+button {
+display: none;
+background-color: lightskyblue;
+border-radius: 50%;
+width: 40%;
+height:100%;
+}
+/* Style the navigation menu */
+.topnav {
+  overflow:visible;
+  background-color: black;
+	height: 30%; 
+
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #304F6D;
+  color: white;
+}
+
+.topnav {
+font-family: Quicksand;
+}
+.header{
+	display:none;
+}
+.about-mobile-content{
+	display: flex;
+}
+.middle-content{
+width: 100%
+}
+.middle-content {
+  display: flex; 
+	height: 50em;
+	width: 100%;
+	background-color:dodgerblue;
+	margin-right: 20
+	
+}
+.content{
+	display: flex;
+	height: 10%;
+	width: 20%; 
+	background-color: white;
+	margin: 10px; 
+
+}
+}
